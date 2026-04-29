@@ -1,11 +1,39 @@
-body {
+body{
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
 }
 
+header h1 {
+    font-size: 2em;
+    font-weight: 700;
+    color: hsl(300, 94%, 39%);
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(46, 43, 226);
+}
+
+h1{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    color: blue;
+}
