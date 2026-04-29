@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* header a {
+    text-decoration: line-through;
+    color: red;
+} */
+h1 {
+    background-color: aqua;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+p {
+    color: blue;
+}
